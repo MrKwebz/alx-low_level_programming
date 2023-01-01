@@ -17,26 +17,26 @@ int main(void)
 
 
 
-			for (n = 48; n < 58; n++)
+		for (n = 48; n < 58; n++)
 
-					{
+		{
 
-								putchar(n);
+			putchar(n);
 
-										if (n != 57)
+		if (n != 57)
 
-													{
+		{
 
-																	putchar(',');
+			putchar(',');
 
 																				putchar(' ');
 
-																						}
+																			}
 
-											}
+		}
 
-				putchar('\n');
+			putchar('\n');
 
-					return (0);
+			return (0);
 
 }
